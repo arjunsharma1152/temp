@@ -1,0 +1,26 @@
+img{
+    position: absolute;
+    z-index: -1;
+    top: 100px;
+    left: 0;
+    height: 570px;
+}
+
+h1{
+    border-bottom: 2px solid black;
+    padding-bottom: 20px;
+}
+
+.main-content{
+    display: flex;
+    align-items: center;
+}
+
+.color{
+    margin-left: 30px;
+}
+
+select{
+    width: 100px;
+    height: 30px;
+}
