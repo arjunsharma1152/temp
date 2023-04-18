@@ -11,12 +11,12 @@ const Home = () => {
 
     return (
         <>
-            <h1>T-Shirt Designs</h1>
+            <div className='header'>T-Shirt Designs</div>
             <div className='main-content'>
                 <img src={color} alt='tshirt' />
                 <TShirtDesigner />
                 <div className='color'>
-                    <h3>T-Shirt Color</h3>
+                    <h2>T-Shirt Color</h2>
                 <select onChange={handleDropdownChange}>
                     <option value="https://m.media-amazon.com/images/I/61ULbC6EFHL._UY879_.jpg">Maroon</option>
                     <option value="https://m.media-amazon.com/images/I/5176MRuLASS._SY741._SX._UX._SY._UY_.jpg">Black</option>

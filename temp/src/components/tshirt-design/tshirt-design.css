@@ -18,4 +18,34 @@ canvas {
 
 #controls{
     width: fit-content;
+    background-color: #242424;
+    border-radius: 20px;
+    padding: 20px;
+}
+
+.controls-content{
+    display: flex;
+    flex-direction: column;
+}
+
+input{
+    margin: 10px;
+    border-radius: 10px;
+    height: 40px;
+}
+
+button{
+    font-family: inherit;
+  font-size: 20px;
+  background: rgb(216, 9, 151);
+  color: white;
+  padding: 0.7em 1em;
+  padding-left: 0.9em;
+  display: flex;
+  align-items: center;
+  border: none;
+  border-radius: 16px;
+  overflow: hidden;
+  transition: all 0.2s;
+  margin-bottom: 10px;
 }
